@@ -1,0 +1,100 @@
+html {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14pt;
+	background-color: #b9b0a8;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+}
+
+div#header {
+	display: block;
+}
+
+div.title-pic {
+	display: block;
+	width: 100%;
+	background-color: #5f5246;
+}
+
+div.title-pic>img {
+	width: 64em;
+	display: block;
+	margin: 0 auto;
+}
+
+.content-frame {
+	display: block;
+	width: 64em;
+	margin: 0 auto;
+	background-color: #d8cfc6;
+	border-color: #8f867e;
+}
+
+div#content {
+	display: block;
+
+	padding: 1em 4em;
+	border-width: 0 1px;
+	border-style: solid;
+	border-color: #8f867e;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Lora', serif;
+}
+h3{
+	margin-bottom: 0;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.right-aligned {
+	float: right;
+	margin-left: 1em;
+}
+
+.common-img {
+	border: 3px solid #8f867e;
+}
+
+.note {
+	font-family: 'Lora', serif;
+	font-style: italic;
+	margin: auto 1em;
+}
+
+div.ref-links {
+	display: inline-block;
+}
+
+div.ref-links ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+div.ref-links li {
+	float: left;
+	margin: 0 1em;
+}
+
+div.ref-links li:first-child {
+	float: left;
+	margin-left: 0;
+}
+
+div.ref-links li>a {
+	display: block;
+	text-align: center;
+}
